@@ -22,7 +22,7 @@ export default function Hero() {
                 isPrimary
                 isFlex
                 isRounded>
-                Get In Touch
+                Get In Touch test
               </Button>
             </div>
             <div>
