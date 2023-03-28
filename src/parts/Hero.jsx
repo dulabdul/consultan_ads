@@ -14,7 +14,7 @@ export default function Hero() {
                 </h1>
                 <h2 className='font-bold text-5xl capitalize text-dark'>
                   Consult Your <br />
-                  Bussiness With Us.Test Branch
+                  Bussiness With Us.
                 </h2>
               </div>
               <Button
@@ -47,6 +47,7 @@ export default function Hero() {
             <img
               src={`${process.env.PUBLIC_URL}/images/design/bg.png`}
               alt='Background'
+              className='object-cover object-center'
             />
           </div>
         </div>
