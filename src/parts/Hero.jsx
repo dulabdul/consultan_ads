@@ -14,7 +14,7 @@ export default function Hero() {
                 </h1>
                 <h2 className='font-bold text-5xl capitalize text-dark'>
                   Consult Your <br />
-                  Bussiness With Us. Test CICD Deployment
+                  Bussiness With Us.
                 </h2>
               </div>
               <Button
