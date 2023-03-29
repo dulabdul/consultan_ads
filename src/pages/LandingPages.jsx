@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Header from '../parts/Header';
 import Hero from '../parts/Hero';
 import Content from '../parts/Content';
+import SliderContent from '../parts/SliderContent';
 
 export default function LandingPages() {
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function LandingPages() {
       <Hero />
       <main>
         <Content />
+        <SliderContent />
       </main>
     </>
   );
