@@ -27,7 +27,7 @@ export default function Testimonial() {
         <div className='container mx-auto'>
           <div className='px-52 flex flex-col'>
             {arrTesti.map((item, index) => (
-              <div>
+              <div key={index}>
                 <p className='text-dark text-2xl'>"{item.description}"</p>
                 <div className='flex items-center gap-x-4'>
                   <img
