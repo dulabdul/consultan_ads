@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 export default function Contact() {
   return (
-    <section className='w-full overflow-hidden px-32 py-16'>
+    <section className='w-full overflow-hidden px-32 pt-16 pb-32'>
       <div className='w-full relative container mx-auto bg-gradient-to-t from-[#fff] to-[#FFF4D4] px-32 py-16'>
         <div className='w-full flex justify-between'>
           <div>

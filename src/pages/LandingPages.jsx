@@ -7,6 +7,7 @@ import ContentTwo from '../parts/ContentTwo';
 import OurTeam from '../parts/OurTeam';
 import Testimonial from '../parts/Testimonial';
 import Contact from '../parts/Contact';
+import Footer from '../parts/Footer';
 
 export default function LandingPages() {
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function LandingPages() {
         <Testimonial />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
