@@ -3,11 +3,11 @@ import Button from '../components/Button';
 
 export default function Contact() {
   return (
-    <section className='w-full overflow-hidden px-32 pt-16 pb-32'>
-      <div className='w-full relative container mx-auto bg-gradient-to-t from-[#fff] to-[#FFF4D4] px-32 py-16'>
-        <div className='w-full flex justify-between'>
-          <div>
-            <h1 className='text-dark text-3xl my-4 font-normal'>
+    <section className='w-full overflow-hidden px-4 py-16 md:px-32 md:pt-16 md:pb-32'>
+      <div className='w-full relative container mx-auto bg-gradient-to-t from-[#fff] to-[#FFF4D4] px-6 py-8 rounded-md md:px-32 md:py-16'>
+        <div className='w-full flex flex-wrap md:flex-nowrap justify-between'>
+          <div className='relative z-10'>
+            <h1 className='text-dark text-2xl md:text-3xl my-4 font-normal'>
               All-in-one platform for business
             </h1>
             <p className='text-dark font-light'>
@@ -18,7 +18,7 @@ export default function Contact() {
           <div>
             <Button
               isPrimary
-              className='button z-10 relative'
+              className='button z-10 relative mt-6 mb-4'
               isRounded>
               Get In Touch
             </Button>

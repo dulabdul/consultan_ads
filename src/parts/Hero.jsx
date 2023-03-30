@@ -4,15 +4,15 @@ import Button from '../components/Button';
 export default function Hero() {
   return (
     <section className='w-full overflow-hidden'>
-      <div className='w-full mx-auto pl-32 py-16'>
-        <div className='grid grid-cols-2 items-center justify-center'>
+      <div className='w-full mx-auto px-6 pt-8 pb-24 md:px-0 md:pl-32 md:py-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center'>
           <div className='w-full h-full container flex flex-col justify-around'>
             <div>
               <div className='my-4'>
-                <h1 className='text-1xl text-pastel uppercase my-4'>
+                <h1 className='text-xl text-pastel uppercase my-4'>
                   Design Inspiration
                 </h1>
-                <h2 className='font-bold text-5xl capitalize text-dark'>
+                <h2 className='font-bold text-4xl md:text-5xl capitalize text-dark'>
                   Consult Your <br />
                   Bussiness With Us.
                 </h2>
@@ -26,7 +26,7 @@ export default function Hero() {
               </Button>
             </div>
             <div>
-              <h5 className='font-normal text-2xl'>
+              <h5 className='font-normal text-base md:text-2xl'>
                 I feel so much less stressed ❤️ <br /> as I now know by the
                 book.”
               </h5>
@@ -43,7 +43,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className='w-full h-full'>
+          <div className='w-full h-full hidden md:block'>
             <img
               src={`${process.env.PUBLIC_URL}/images/design/bg.png`}
               alt='Background'

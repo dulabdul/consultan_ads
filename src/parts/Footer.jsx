@@ -4,10 +4,10 @@ import Button from '../components/Button';
 export default function Footer() {
   const date = new Date();
   return (
-    <footer className='w-full overflow-hidden bg-dark px-32 py-12'>
+    <footer className='w-full overflow-hidden bg-dark px-6 md:px-32 py-12'>
       <div className='container w-full mx-auto'>
-        <div className='grid grid-cols-12 justify-center gap-x-4'>
-          <div className='col-start-1 col-end-7'>
+        <div className='grid grid-cols-12 justify-center gap-y-6 md:gap-y-0 gap-x-4'>
+          <div className='col-start-1 col-end-12 md:col-start-1 :col-end-7'>
             <img
               src={`${process.env.PUBLIC_URL}/images/design/logo-dark.svg`}
               className='mr-3 sm:h-9'
@@ -21,7 +21,7 @@ export default function Footer() {
               euismod vel pretium tellus accumsan semper.
             </p>
           </div>
-          <div className='col-start-7 col-end-9'>
+          <div className='col-start-1 col-end-12 md:col-start-7 md:col-end-9'>
             <h5 className='text-pastel font-normal'>Pages</h5>
             <ul className='my-4 text-white '>
               <li>
@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className='col-start-9 col-end-11'>
+          <div className='col-start-1 col-end-12 md:col-start-9 md:col-end-11'>
             <h5 className='text-pastel font-normal'>Demos</h5>
             <ul className='my-4 text-white '>
               <li>
@@ -80,7 +80,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className='col-start-11 col-end-12'>
+          <div className='col-start-1 col-end-12 md:col-start-11 md:col-end-12'>
             <h5 className='text-pastel font-normal'>Resource</h5>
             <ul className='my-4 text-white '>
               <li>

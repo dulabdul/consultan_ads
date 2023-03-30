@@ -24,8 +24,8 @@ export default function OurTeam() {
     },
   ];
   return (
-    <section className='w-full overflow-hidden px-32 py-32'>
-      <h1 className='text-center text-dark font-semibold my-5 text-5xl'>
+    <section className='w-full overflow-hidden px-6 py-12 md:px-32 md:py-32'>
+      <h1 className='text-center text-dark font-semibold my-2 md:my-5 text-3xl md:text-5xl'>
         Our Leadership
       </h1>
       <p className='text-dark font-light text-center'>
@@ -33,7 +33,7 @@ export default function OurTeam() {
         sit ipsum malesuada a, duis volutpat.
       </p>
       <div className='w-full container mx-auto pt-20 pb-12'>
-        <div className='w-full grid grid-cols-4 items-center justify-center gap-x-4'>
+        <div className='w-full grid grid-cols-1 gap-y-10 md:grid-cols-4 items-center justify-center md:gap-x-4'>
           {peopleCard.map((item, index) => (
             <div
               key={index}
