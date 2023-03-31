@@ -14,6 +14,10 @@
   header > div .nav-ul > ul {
     @apply items-center;
   }
+  .carousel-slick > div .slick-list > div .slick-track {
+    display: flex !important;
+    gap: 16px;
+  }
 }
 @tailwind components;
 @tailwind utilities;
