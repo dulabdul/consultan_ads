@@ -81,7 +81,7 @@ export default function Carousel() {
         {carouselContent.map((card, index) => (
           <div
             key={index}
-            className='bg-light shadow-lg px-8 py-5 md:px-14 md:py-10'>
+            className='bg-light shadow-lg px-8 py-5 lg:px-14 lg:py-10'>
             <div>
               <h2 className='text-dark text-3xl font-semibold my-4'>
                 {card.title}

@@ -3,7 +3,7 @@ import Carousel from './Carousel';
 
 export default function SliderContent() {
   return (
-    <section className='w-full overflow-hidden px-6 py-16 md:px-32 md:py-32'>
+    <section className='w-full overflow-hidden px-6 py-16 md:px-16 md:py-24 lg:px-32 lg:py-32'>
       <div className='w-full container mx-auto'>
         <h1 className='text-dark text-xl font-normal text-center'>
           Desgin Concept

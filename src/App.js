@@ -10,7 +10,7 @@ function App() {
           <Route
             element={<LandingPages />}
             exatch
-            path='/project06/smartwatch'
+            path='/'
           />
         </Routes>
       </Router>

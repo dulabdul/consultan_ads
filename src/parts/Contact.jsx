@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 export default function Contact() {
   return (
-    <section className='w-full overflow-hidden px-4 py-16 md:px-32 md:pt-16 md:pb-32'>
+    <section className='w-full overflow-hidden px-4 py-16 md:px-16 lg:py-0 lg:px-32 lg:pt-16 lg:pb-32'>
       <div className='w-full relative container mx-auto bg-gradient-to-t from-[#fff] to-[#FFF4D4] px-6 py-8 rounded-md md:px-32 md:py-16'>
         <div className='w-full flex flex-wrap md:flex-nowrap justify-between'>
           <div className='relative z-10'>
@@ -23,7 +23,7 @@ export default function Contact() {
               Get In Touch
             </Button>
             <img
-              src={`${process.env.PUBLIC_URL}/images/design/white_shape.svg`}
+              src={`/images/design/white_shape.svg`}
               className='absolute top-0 bottom-0 right-0 z-0'
               alt=''
             />
