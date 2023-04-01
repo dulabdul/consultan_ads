@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
+import { Zoom } from 'react-reveal';
 
 export default function SliderContent() {
   return (
@@ -12,7 +13,9 @@ export default function SliderContent() {
           The best design for your <br className='hidden md:block' /> studio
           website
         </h2>
-        <Carousel />
+        <Zoom>
+          <Carousel />
+        </Zoom>
       </div>
     </section>
   );
