@@ -8,7 +8,7 @@ export default function Content() {
         <div className='grid grid-cols-12 h-full items-center justify-center gap-4 '>
           <div className='col-start-1 col-end-12 md:col-start-1 md:col-end-5'>
             <img
-              src={`/images/design/peter-1.png`}
+              src={`/images/design/peter-1.webp`}
               alt='Peter-1'
               className='w-[300px] h-[350px] md:w-[400px] md:h-[340px] lg:w-[380px] lg:h-[450px]'
             />
@@ -26,7 +26,7 @@ export default function Content() {
               </p>
             </div>
             <img
-              src={`/images/design/peter-2.png`}
+              src={`/images/design/peter-2.webp`}
               alt='Peter-2'
             />
           </div>
@@ -36,7 +36,7 @@ export default function Content() {
         <div className='grid grid-cols-12 items-center justify-center gap-4 md:gap-8'>
           <div className='col-start-1 col-end-12 md:col-start-1 md:col-end-7'>
             <img
-              src={`/images/design/peter-3.png`}
+              src={`/images/design/peter-3.webp`}
               alt='Peter-3'
               className='w-[300px] h-[350px] md:w-[400px] md:h-[340px] lg:w-[380px] lg:h-[450px]'
             />
@@ -79,7 +79,7 @@ export default function Content() {
           </div>
           <div className='col-start-1 col-end-12 md:col-start-7 md:col-end-133'>
             <img
-              src={`/images/design/peter-4.png`}
+              src={`/images/design/peter-4.webp`}
               alt='Peter-4'
               className='w-[300px] h-[350px] md:w-[400px] md:h-[340px] lg:w-[380px] lg:h-[450px]'
             />

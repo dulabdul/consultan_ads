@@ -3,22 +3,22 @@ import React from 'react';
 export default function OurTeam() {
   const peopleCard = [
     {
-      imageURL: 'man-1.png',
+      imageURL: 'man-1.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
     },
     {
-      imageURL: 'women-1.png',
+      imageURL: 'women-1.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
     },
     {
-      imageURL: 'man-2.png',
+      imageURL: 'man-2.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
     },
     {
-      imageURL: 'women-2.png',
+      imageURL: 'women-2.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
     },

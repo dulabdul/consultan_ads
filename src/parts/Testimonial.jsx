@@ -3,14 +3,14 @@ import React from 'react';
 export default function Testimonial() {
   const arrTesti = [
     {
-      imageURL: 'rounded-people-2.png',
+      imageURL: 'rounded-people-2.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
       description:
         "Every single person comes away and says - wow that's a reallyslick experience, that was so easy to use. I feel so much less stressed as I now know we’re doing everything by the book.",
     },
     {
-      imageURL: 'rounded-people-1.png',
+      imageURL: 'rounded-people-1.webp',
       name: 'Andry Ford',
       job: 'CEO WhatEver',
       description:
