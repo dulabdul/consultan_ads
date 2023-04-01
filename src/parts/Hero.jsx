@@ -4,7 +4,7 @@ import Button from '../components/Button';
 export default function Hero() {
   return (
     <section className='w-full overflow-hidden'>
-      <div className='w-full mx-auto px-6 pt-8 pb-24 md:px-0 md:pl-32 md:py-16'>
+      <div className='w-full mx-auto px-6 pt-8 pb-24 md:px-0 md:pl-16 lg:pl-32 md:py-16'>
         <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center'>
           <div className='w-full h-full container flex flex-col justify-around'>
             <div>
@@ -32,7 +32,7 @@ export default function Hero() {
               </h5>
               <div className='flex items-center justify-start my-4'>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/design/rounded-people-1.png`}
+                  src={`/images/design/rounded-people-1.png`}
                   alt='Catherine'
                   className='w-[60px] h-[60px]'
                 />
@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
           <div className='w-full h-full hidden md:block'>
             <img
-              src={`${process.env.PUBLIC_URL}/images/design/bg.png`}
+              src={`/images/design/bg.png`}
               alt='Background'
               className='object-cover object-center'
             />

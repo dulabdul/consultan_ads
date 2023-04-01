@@ -21,18 +21,18 @@ export default function Testimonial() {
     <section className='w-full overflow-hidden'>
       <div className='flex justify-between'>
         <img
-          src={`${process.env.PUBLIC_URL}/images/design/left.svg`}
+          src={`/images/design/left.svg`}
           alt='Left'
-          className='w-[60px] md:w-full'
+          className='w-[60px] md:w-auto'
         />
         <div className='container mx-auto'>
-          <div className='px-2 md:px-52 flex flex-col'>
+          <div className='px-2 md:px-14 lg:px-52 flex flex-col'>
             {arrTesti.map((item, index) => (
               <div key={index}>
                 <p className='text-dark text-2xl'>"{item.description}"</p>
                 <div className='flex items-center gap-y-1 gap-x-4'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/design/${item.imageURL}`}
+                    src={`/images/design/${item.imageURL}`}
                     width={60}
                     height={60}
                     className='my-5 md:my-10'
@@ -48,7 +48,7 @@ export default function Testimonial() {
           </div>
         </div>
         <img
-          src={`${process.env.PUBLIC_URL}/images/design/right.svg`}
+          src={`/images/design/right.svg`}
           alt='Right'
           className='w-[60px] md:w-auto'
         />

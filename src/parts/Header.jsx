@@ -11,7 +11,7 @@ export default function Header() {
           rounded={true}>
           <Navbar.Brand to='/navbars'>
             <img
-              src={`${process.env.PUBLIC_URL}/images/design/logo.svg`}
+              src={`/images/design/logo.svg`}
               className='mr-3 sm:h-9'
               width={80}
               height={80}
@@ -28,17 +28,17 @@ export default function Header() {
             <Navbar.Link
               className='text-dark'
               to='/navbars'>
-              Templates
+              About
             </Navbar.Link>
             <Navbar.Link
               className='text-dark'
               href='/navbars'>
-              Price
+              Service
             </Navbar.Link>
             <Navbar.Link
               className='text-dark'
               href='/navbars'>
-              Help
+              Contact
             </Navbar.Link>
             <Button
               isFlex
