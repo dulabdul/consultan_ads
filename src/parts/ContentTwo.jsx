@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../components/Button';
 import { AiOutlineRight } from 'react-icons/ai';
+import { Fade } from 'react-reveal';
+
 export default function ContentTwo() {
   const arrayDesign = [
     {
@@ -107,25 +109,29 @@ export default function ContentTwo() {
               Experiece Team <AiOutlineRight className='md:text-2xl text-xl' />
             </Button>
           </div>
-          <div className='w-full grid-cols-1 gap-y-4 grid lg:grid-cols-3 justify-center items-center md:gap-x-4'>
-            {arrayCard.map((items, index) => (
-              <div
-                key={index}
-                className='bg-white shadow-lg rounded-xl '>
-                <div className='p-6 md:p-8'>
-                  <h4 className='text-dark font-semibold text-3xl my-4'>
-                    {items.title}
-                  </h4>
-                  <p className='text-dark font-light text-base'>
-                    {items.description}
-                  </p>
+          <div className='w-full grid-cols-1 gap-y-4 grid lg:grid-cols-3 justify-center items-center md:gap-x-4 py-12'>
+            <Fade
+              left
+              duration={1000}>
+              {arrayCard.map((items, index) => (
+                <div
+                  key={index}
+                  className='bg-white shadow-lg rounded-xl '>
+                  <div className='p-6 md:p-8'>
+                    <h4 className='text-dark font-semibold text-3xl my-4'>
+                      {items.title}
+                    </h4>
+                    <p className='text-dark font-light text-base'>
+                      {items.description}
+                    </p>
+                  </div>
+                  <hr className='shadow-lg bg-white text-white' />
+                  <div className='px-6 py-4'>
+                    <p className='text-pastel'>Experience Team</p>
+                  </div>
                 </div>
-                <hr className='shadow-lg bg-white text-white' />
-                <div className='px-6 py-4'>
-                  <p className='text-pastel'>Experience Team</p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </Fade>
           </div>
         </div>
       </div>
