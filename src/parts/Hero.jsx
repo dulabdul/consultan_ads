@@ -32,7 +32,7 @@ export default function Hero() {
               </h5>
               <div className='flex items-center justify-start my-4'>
                 <img
-                  src={`/images/design/rounded-people-1.png`}
+                  src={`/images/design/rounded-people-1.webp`}
                   alt='Catherine'
                   className='w-[60px] h-[60px]'
                 />
@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
           <div className='w-full h-full hidden md:block'>
             <img
-              src={`/images/design/bg.png`}
+              src={`/images/design/bg.webp`}
               alt='Background'
               className='object-cover object-center'
             />
